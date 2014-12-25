@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
 
 DESC
 
-  s.homepage     = "http://github.com/dmitrinesterenko/EventBased"
+  s.homepage     = "https://github.com/dmitrinesterenko/EventBased"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ DESC
   #
 
   #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +129,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/dmitrinesterenko/EventBased.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/dmitrinesterenko/EventBased.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -140,8 +140,8 @@ DESC
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "EventBased", "EventBased/**/*.{h,m,swift}"
+  s.exclude_files = "EventBasedTests/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
